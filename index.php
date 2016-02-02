@@ -37,8 +37,6 @@ switch($rand) {
 		$hash = "#trending";
 		break;				
 }
-echo $rand;
-echo $hash;
 
 $status = $status + " " + $hash;
 
