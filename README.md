@@ -2,7 +2,19 @@
 ![Tweeter](https://raw.githubusercontent.com/dhaval17/tweeter/assets/icon.png)
 ## Yet another random Tweeter
 
-##Requires 
-- fortune
+## Nodejs
+### Install
 
-Setup Cronjobs for tweet frequency (Rate limit 1/15mins)
+```
+npm install
+node start
+```
+
+### Requires
+- cron
+- fortune-teller
+- twitter
+
+## php
+### Requires 
+- fortune
