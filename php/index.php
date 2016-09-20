@@ -19,26 +19,7 @@ foreach ($result as $line) {
 	$status = $status . $line; 
 }
 
-$rand = rand(1, 5);
-switch($rand) {
-	case 1:
-		$hash = "#quote";
-		break;
-	case 2:
-		$hash = "#justsayin";
-		break;
-	case 3:
-		$hash = "#random";
-		break;
-	case 4:
-		$hash = "#hashtag";
-		break;
-	case 5:
-		$hash = "#trending";
-		break;				
-}
-
-$status = $status + " " + $hash;
+$status = $status;
 
 $params = array(
   'status' => $status
